@@ -1,0 +1,15 @@
+bikes = [10,12,100,433,90,60,88,1096]
+print(bikes)
+del bikes[1]
+print(bikes)
+bikes.pop()  # remove last element
+print(bikes)
+f2 = bikes.pop(2) # pop can also remove by index number
+print(bikes)
+print('I removed: ',f2)
+# delete - just remove the value - no access
+# pop() - also returns the value removed
+bikes.remove(60)
+print(bikes)
+bikes = []   # list is blank
+print(bikes)
